@@ -1,0 +1,20 @@
+ Volume in drive C has no label.
+ Volume Serial Number is E437-F11C
+
+ Directory of c:\Users\8304018\Documents\GitHub\Mybrary
+
+2021/10/18  13:56    <DIR>          .
+2021/10/18  13:56    <DIR>          ..
+2021/10/18  10:10                40 .env
+2021/10/16  07:08                18 .gitignore
+2021/10/18  13:56                 0 abc.txt
+2021/10/17  07:19    <DIR>          models
+2021/10/16  08:16    <DIR>          node_modules
+2021/10/17  07:19           106,100 package-lock.json
+2021/10/18  13:48               545 package.json
+2021/10/17  07:19    <DIR>          public
+2021/10/18  13:11    <DIR>          routes
+2021/10/18  13:10             1,157 server.js
+2021/10/18  08:31    <DIR>          views
+               6 File(s)        107,860 bytes
+               7 Dir(s)  96,903,110,656 bytes free

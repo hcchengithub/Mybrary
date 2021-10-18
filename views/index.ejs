@@ -1,2 +1,19 @@
-<h2 class="page-header">Recently Added</h2>
-<%- include('partials/bookGrid', { books: books, large: true }) %>
+<p>
+<form action="/nn" method="GET">
+  <div>
+    <label for="say">What greeting do you want to say?</label>
+    <input name="say" id="say" value="Hi">
+  </div>
+  <div>
+    <label for="to">Who do you want to say it to?</label>
+    <input name="to" id="to" value="Mom">
+  </div>
+  <div>
+    <button>Send my greetings</button>
+  </div>
+</form>
+</p>
+<p>
+<textarea>this is a test <input type="button" value="Send" onclick="location.href='要前往的網頁連結'"> </textarea>
+<input type="button" value="Send" onclick="location.href='要前往的網頁連結'">
+</p>

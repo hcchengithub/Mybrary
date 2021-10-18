@@ -3,13 +3,16 @@ const router = express.Router()
 const Book = require('../models/book')
 
 router.get('/', async (req, res) => {
-  let books
-  try {
-    books = await Book.find().sort({ createdAt: 'desc' }).limit(10).exec()
-  } catch {
-    books = []
-  }
-  res.render('index', { books: books })
+  // let books
+  // try {
+  //   books = await Book.find().sort({ createdAt: 'desc' }).limit(10).exec()
+  // } catch {
+  //   books = []
+  // }
+  // res.render('index', { books: books })
+  // res.send('hello world!')
+  res.render('index')
+  
 })
 
 module.exports = router
